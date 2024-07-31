@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: 20px;
+    background-color: hsl(0%, 0%, 0%);
+  }
+  .text-dark {
+    color: #333 !important;
+  }
+  .filters-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .filters-container .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .filters-container .form-group:last-child {
+    margin-right: 0;
+  }
+
+  body{
+      background-color: #fafafa97;
+  }
+
+  .text{
+      color: #00248e;
+      text-align: center;
+      font-weight: bolder;
+  }

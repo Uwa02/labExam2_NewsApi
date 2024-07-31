@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsApi</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-4 mb-4">
+    <h2 class="mb-4 text">NewsApi.org | WebApp</h2>
+
+    <!-- Filters -->
+    <div class="filters-container mb-4">
+      <div class="form-group">
+        <label for="categoryFilter" class="font-weight-bold text-dark">Filter by Category:</label>
+        <select id="categoryFilter" class="form-control">
+          <option value="">Select News Category</option>
+          <option value="business">Business</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="health">Health</option>
+          <option value="science">Science</option>
+          <option value="sports">Sports</option>
+          <option value="technology">Technology</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="countryFilter" class="font-weight-bold text-dark">Filter by Country:</label>
+        <select id="countryFilter" class="form-control">
+          <option value="ph">Philippines</option>
+          <option value="us">United States</option>
+          <option value="gb">United Kingdom</option>
+          <option value="ca">Canada</option>
+          <option value="au">Australia</option>
+          <option value="in">India</option>
+          <!-- Add more countries as needed -->
+        </select>
+      </div>
+    </div>
+
+    <div id="newsContainer" class="row">
+      <!-- News articles will be dynamically inserted here -->
+    </div>
+    <div class="text-center">
+      <button id="loadNewsBtn" class="btn btn-primary">Load More News</button>
+    </div>
+    <div>
+      <hr>
+      <p class="text-center font-weight-bold text-dark">© Joshua Berbie | 2024</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
