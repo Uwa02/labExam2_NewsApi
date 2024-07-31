@@ -5,8 +5,9 @@
 Steps on running the application:
 1. Download the zip file from the github repository 
 2. Extract the zipfile
-3. Navigate to the folder and locate the "index.html"
-4. Double click the file to open locally in the browser
+3. *Open the folder in VScode, this step is very crucial for the file to be run on localhost and for the API to work the.
+4. Check if VScode have live server extension, If not, download the extension on the extensions tab in the side panel of VScode.
+5. Right click on the index.html and choose "Open with Live Server".
 5. Toggle the filters to load news according to news category and countries.
 
 -Upon the initial page load the language can be in mandarin and are all weird but this will be fixed once country filter is toggled.
